@@ -565,3 +565,75 @@ opacity:1;
 .next-project:hover .next-content{
 color:white;
 }
+
+/* PROFILE PAGE */
+
+.profile-page{
+background:#05070f;
+color:white;
+}
+
+
+/* LAYOUT */
+
+.profile-section{
+display:flex;
+justify-content:center;
+gap:80px;
+padding:120px 10%;
+}
+
+
+/* LEFT COLUMN */
+
+.profile-left{
+width:220px;
+font-size:12px;
+line-height:1.8;
+}
+
+.profile-left h4{
+margin-top:40px;
+letter-spacing:3px;
+font-size:11px;
+color:#5a6cc5;
+}
+
+
+/* IMAGE */
+
+.profile-image{
+width:160px;
+height:160px;
+background:#ddd;
+margin-bottom:30px;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+
+/* RIGHT COLUMN */
+
+.profile-right{
+max-width:520px;
+}
+
+
+.profile-box{
+border:8px solid #3a3fb3;
+padding:60px;
+font-size:20px;
+line-height:1.6;
+}
+
+
+/* CONTACT LINK */
+
+.contact-link{
+display:inline-block;
+margin-top:30px;
+color:#5a6cc5;
+font-size:18px;
+text-decoration:underline;
+}
