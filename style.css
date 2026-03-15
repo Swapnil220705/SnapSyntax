@@ -6,7 +6,7 @@ font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
-background:#e9e9e9;
+background: white;
 height:100vh;
 display:flex;
 flex-direction:column;
@@ -266,7 +266,7 @@ gap:80px;
 
 .image-block{
 width:70%;
-height:350px;
+height:325px;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -280,4 +280,110 @@ color:white;
 
 .gray{
 background:#eeeeee;
+}
+
+.design-system{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:100px;
+padding:120px 0;
+}
+
+
+/* COLOR BLOCKS */
+
+.color-block{
+width:70%;
+height:325px;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+padding:40px;
+color:white;
+}
+
+.red-block{
+background:#e90b45;
+}
+
+.dark-block{
+background:#0c1826;
+}
+
+.grey-block{
+background:#cfd3d6;
+color:black;
+}
+
+
+/* COLOR STRIP */
+
+.color-strip{
+display:flex;
+height:40px;
+}
+
+.color-strip div{
+flex:1;
+opacity:0.8;
+}
+
+.red-block .color-strip div:nth-child(1){background:#ff4d6d;}
+.red-block .color-strip div:nth-child(2){background:#ff758f;}
+.red-block .color-strip div:nth-child(3){background:#ff9db0;}
+.red-block .color-strip div:nth-child(4){background:#ffd1da;}
+
+.dark-block .color-strip div:nth-child(1){background:#3a3f45;}
+.dark-block .color-strip div:nth-child(2){background:#6a7078;}
+.dark-block .color-strip div:nth-child(3){background:#8e9399;}
+.dark-block .color-strip div:nth-child(4){background:#c0c4c9;}
+
+.grey-block .color-strip div:nth-child(1){background:#d5d9dc;}
+.grey-block .color-strip div:nth-child(2){background:#e3e6e8;}
+.grey-block .color-strip div:nth-child(3){background:#eceeef;}
+.grey-block .color-strip div:nth-child(4){background:#f5f6f7;}
+
+
+/* TYPOGRAPHY BLOCKS */
+
+.type-block{
+width:70%;
+height:325px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+font-size:60px;
+letter-spacing:6px;
+}
+
+.light-type{
+background:#efefef;
+color:#aaa;
+}
+
+.red-type{
+background:#e90b45;
+color:white;
+}
+
+
+/* TEXT BLOCK */
+
+.text-block{
+width:70%;
+max-width:800px;
+}
+
+.text-block h4{
+letter-spacing:5px;
+font-size:13px;
+margin-bottom:25px;
+color:#4d5fa5;
+}
+
+.text-block p{
+line-height:1.8;
+margin-bottom:20px;
 }
